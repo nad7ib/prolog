@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './purchase-order.component.css'
 })
 export class PurchaseOrderComponent {
+  
 
 }

@@ -1,11 +1,9 @@
 import { Routes } from '@angular/router';
-import { UpdateOrderComponent } from './update-order.component'; // Import the missing UpdateOrderComponent
-import { PurchaseOrderComponent } from './purchase-order.component'; // Import the missing PurchaseOrderComponent
-
+import { PurchaseOrderComponent } from './purchase-order/purchase-order.component';
+import { UpdateOrderComponent } from './update-order/update-order.component';
 
 export const routes: Routes = [
-    { path: 'purchase-order', component: PurchaseOrderComponent } ,
-    { path: 'update-order', component: UpdateOrderComponent } 
+    { path: 'purchase-order', component: PurchaseOrderComponent },
+    { path: 'update-order', component: UpdateOrderComponent },
 ];
-
 

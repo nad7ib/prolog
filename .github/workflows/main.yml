@@ -21,7 +21,7 @@ jobs:
       run: npm ci
 
     - name: Build
-      run: npm run build --serve-path /prolog/ --deploy-url /prolog/
+      run: npm run build -- --serve-path /prolog/ --deploy-url /prolog/
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
